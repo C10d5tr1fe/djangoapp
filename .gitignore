@@ -1,3 +1,5 @@
 ﻿venv
 .idea
 djangoapp/media
+djangoapp/static
+djangoapp/djangoappcore/static

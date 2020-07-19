@@ -90,7 +90,7 @@
 
     {% for post in posts.all %}
 
-    <a href="">
+    <a href="{% url 'post_details' post.id %}">
       <h2>{{ post.post_title }}</h2>
     </a>
       <br/>
